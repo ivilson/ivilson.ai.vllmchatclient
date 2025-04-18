@@ -7,6 +7,7 @@ support stream function call .
 
 
 ```
+using Microsoft.Extensions.AI
 string apiurl = "http://localhost:8000/{0}/{1}";
 
 [Description("Gets the weather")]
