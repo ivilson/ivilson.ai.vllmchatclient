@@ -7,6 +7,10 @@ support stream function call .
 
 
 ```
+dotnet add package ivilson.ai.vllmchatclient --version 1.0.6
+```
+
+```
 using Microsoft.Extensions.AI
 string apiurl = "http://localhost:8000/{0}/{1}";
 
