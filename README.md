@@ -45,8 +45,6 @@ private async Task<(string answer, string reasoning)> StreamChatResponseAsync(Li
         {
             answer += updateText;
         }
-        await Response.WriteAsync(updateText);
-        await Response.Body.FlushAsync();
     }
     return (answer, reasoning);
 }
